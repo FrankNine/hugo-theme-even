@@ -78,6 +78,8 @@
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/schema.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
+<!-- Add GA4 support -->
+{{ template "_internal/google_analytics.html" . }}
 
 <!-- Polyfill for old browsers -->
 {{ `<!--[if lte IE 9]>
